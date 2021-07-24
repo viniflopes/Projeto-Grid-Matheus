@@ -1,6 +1,10 @@
 * {
     background-color: mintcream;
 }
+main {
+    display: flex;
+    justify-content: center;
+}
 .cabecalho {
     display: flex;
     justify-content: center;
@@ -15,23 +19,80 @@
     border-radius: 6px;
     border-color: mintcream;
     box-shadow: 0 0.5px 4px #474A51;
-    margin: 8rem;
-    padding: 2rem;
+    margin: 6rem;
+    min-width: auto;
 }
 .segundoContainer {
     display: grid;
     grid-template-columns: 50% 50%;
 }
+.primeiro {
+    display: grid;
+    padding: 2rem;
+}
 .primeiroH1 {
     color: #2CB3B8;
+    margin-bottom: 1rem;
 }
 .primeiroH2 {
     color: #B0D43B;
+    margin-bottom: 1rem;
 }
-.primeiroP3, .primeiroP4 {
+.primeiroP1, .primeiroP2 {
     color: #A5ADAD;
 }
 
 .primeiroH1, .primeiroH2 {
     font-size: 1.2em;
+}
+.segundo, .segundoH1, .segundoH2, .segundoP1 {
+    background: #2CB3B8; 
+    color: white;
+    padding: 0.7rem;  
+}
+.segundoLayout {
+    margin: 8%;  
+}
+.segundoH1 {
+    font-size: 22px;
+}
+.segundoP1 {
+    color: #CFFFFF;
+    font-size: 14px;
+}
+
+.signUp {
+    border-color: #B0D43B;
+    box-shadow: 0 0.5px 5px #474A51;
+    border-radius: 5px;
+    background-color: #B0D43B;
+    color: white;
+    padding: 1rem;
+   
+}
+.botao {
+    display: flex;
+    background:#2CB3B8;
+    min-width: 40%;
+    justify-content: center;
+    margin-top: 10%;
+    min-width: 40%;
+}
+
+.terceiro{
+    padding: 2rem;
+    background: #45BDC7;
+    color: white;
+}
+.terceiroH1 {
+    padding: 0.5rem;
+    background: #45BDC7;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+.lista li{ 
+    background: #45BDC7;
+    padding: 0.3rem;
+    font-size: 14px;
+    color: #CFFFFF;
 }
