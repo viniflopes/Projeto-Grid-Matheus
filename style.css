@@ -10,6 +10,7 @@ main {
     justify-content: center;
     font-size: 3rem;
     color: mediumaquamarine;
+    
 }
 
 .container {
@@ -41,9 +42,12 @@ main {
 .primeiroP1, .primeiroP2 {
     color: #A5ADAD;
 }
+.primeiroP1 {
+    margin-bottom: 4%;
+}
 
 .primeiroH1, .primeiroH2 {
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 .segundo, .segundoH1, .segundoH2, .segundoP1 {
     background: #2CB3B8; 
@@ -54,13 +58,12 @@ main {
     margin: 8%;  
 }
 .segundoH1 {
-    font-size: 22px;
+    font-size: 20px;
 }
 .segundoP1 {
     color: #CFFFFF;
     font-size: 14px;
 }
-
 .signUp {
     border-color: #B0D43B;
     box-shadow: 0 0.5px 5px #474A51;
@@ -68,15 +71,16 @@ main {
     background-color: #B0D43B;
     color: white;
     padding: 1rem;
+    width: 80%;
    
 }
 .botao {
     display: flex;
     background:#2CB3B8;
-    min-width: 40%;
     justify-content: center;
     margin-top: 10%;
     min-width: 40%;
+    text-decoration: none;
 }
 
 .terceiro{
@@ -95,4 +99,9 @@ main {
     padding: 0.3rem;
     font-size: 14px;
     color: #CFFFFF;
+}
+.pe {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0.5px 5px #474A51;
 }
