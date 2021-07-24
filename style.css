@@ -1,0 +1,37 @@
+* {
+    background-color: mintcream;
+}
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: mediumaquamarine;
+}
+
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    border-style:solid;
+    border-radius: 6px;
+    border-color: mintcream;
+    box-shadow: 0 0.5px 4px #474A51;
+    margin: 8rem;
+    padding: 2rem;
+}
+.segundoContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.primeiroH1 {
+    color: #2CB3B8;
+}
+.primeiroH2 {
+    color: #B0D43B;
+}
+.primeiroP3, .primeiroP4 {
+    color: #A5ADAD;
+}
+
+.primeiroH1, .primeiroH2 {
+    font-size: 1.2em;
+}
